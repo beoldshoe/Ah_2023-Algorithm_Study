@@ -41,7 +41,7 @@ public class Main {
                 arr[i][k] = tmp.charAt(k)-'0';
             }
         }
-
+        
         QuadTree(0,N-1,0,N-1);
         System.out.println(sb);
         stdIn.close();
