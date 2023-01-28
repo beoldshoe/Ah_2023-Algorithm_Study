@@ -1,3 +1,5 @@
+//분할 & 정복(Divide & Conquer)
+
 import java.util.*;
 
 public class Main {
