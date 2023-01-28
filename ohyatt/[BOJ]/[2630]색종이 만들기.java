@@ -8,8 +8,8 @@ public class Main {
         int tmp = arr[x][y];
         int check = 1;
 
-        for(int i =x;i<x+size;i++){
-            for(int k=y;k<y+size;k++){
+        for(int i =x;i < x+size;i++){
+            for(int k=y;k < y+size;k++){
                 if(tmp != arr[i][k]){
                     check = 0;
                     break;
@@ -44,8 +44,8 @@ public class Main {
 
         MakeCP(N,0,0,arr);
 
-        for(int i=0;i<sb.length();i++){
-            char ch=sb.charAt(i);
+        for(int i=0;i < sb.length();i++){
+            char ch = sb.charAt(i);
             if(ch == '0'){
                 count0++;
             }
