@@ -51,6 +51,7 @@ public class Main {
             }
             else count1++;
         }
+        
         System.out.println(count0);
         System.out.println(count1);
         stdIn.close();
