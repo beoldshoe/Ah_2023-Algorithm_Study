@@ -5,6 +5,7 @@ import java.util.*;
 public class Main {
     public static int [][] arr = new int[64][64];
     public static StringBuilder sb = new StringBuilder();
+    
     public static void QuadTree(int x1,int x2, int y1,int y2){
         int tmp = arr[x1][y1];
         int check = 1;
